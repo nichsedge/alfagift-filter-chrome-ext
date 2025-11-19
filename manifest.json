@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Alfagift Sorter",
+  "version": "1.0",
+  "description": "Adds sorting options (Price/Name) to Alfagift search results.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://alfagift.id/find/*", "https://alfagift.id/c/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

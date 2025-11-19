@@ -1,0 +1,54 @@
+/* Floating Container */
+.alfa-sorter-box {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  width: 180px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 999999;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.alfa-sorter-header {
+  background-color: #d7111b;
+  /* Alfamart Red */
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+
+.alfa-sorter-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.alfa-sort-btn {
+  background: #f8f9fa;
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 4px;
+  color: #333;
+  transition: all 0.2s;
+}
+
+.alfa-sort-btn:hover {
+  background: #ffecec;
+  border-color: #d7111b;
+}
+
+.alfa-sort-btn.active {
+  background: #d7111b;
+  color: white;
+  border-color: #d7111b;
+}
